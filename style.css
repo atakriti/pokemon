@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226, 199, 123);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 137, 9);
+  min-height: 80%;
+}
+.container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  background-color: rgb(175, 151, 84);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(104, 83, 27);
+min-height: 100%;
+}
+form {
+  width: 50%;
+  display: flex;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 1%;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+input[type="submit"] {
+  flex: 0.3;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(201, 162, 56);
+  color: white;
+  font-weight: bold;
+  outline: none;
+  margin-left: 1%;
+  border-radius: 5px;
+
+}
+#pok1{
+  width: 50%;
+}
+#pok2{
+    width: 50%;
+}
+#pok3 {
+    width: 50%;
+}
+#pok4{
+    width: 50%;
+}
+#pok5{
+    width: 50%;
+}
+#pok6{
+    width: 50%;
+}
+#pok7{
+    width: 50%;
+}
+#pok1 div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 217, 113);
+  margin-top: 5%;
+  padding: 10% 0;
+  line-height: 1.5;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(184, 137, 9);
+}
+#pok2 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 217, 113);
+    margin-top: 5%;
+    padding: 10% 0;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 137, 9);
+}
+#pok3 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 217, 113);
+    margin-top: 5%;
+    padding: 10% 0;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 137, 9);
+}
+#pok4 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 217, 113);
+    margin-top: 5%;
+    padding: 10% 0;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 137, 9);
+}
+
+#pok5 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 217, 113);
+    margin-top: 5%;
+    padding: 10% 0;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 137, 9);
+}
+#pok6 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 217, 113);
+    margin-top: 5%;
+    padding: 10% 0;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 137, 9);
+}
+
+#pok7 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 217, 113);
+    margin-top: 5%;
+    padding: 10% 0;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 137, 9);
+}
+
+h1 {
+  /* border: 1px red solid; */
+  background-color: white;
+  padding: 1% 0%;
+  width: 70%;
+  text-align: center;
+}
+img {
+  border: 6px white solid;
+  border-radius: 50%;
+  margin: 5% 0;
+  width: 8vw;
+}
+h3 {
+  border-bottom: 4px white solid;
+  margin-bottom: 4%;
+}
+ul {
+  list-style: none;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  width: 50%;
+  padding: 0% 0;
+  font-weight: bold;
+}
+ul li:nth-child(even) {
+  text-align: right;
+}
+ul:nth-child(6) {
+  flex-direction: column;
+  align-items: center;
+}
+ul:nth-child(6) li {
+  width: 30%;
+  text-align: left;
+}
+
+.titles{
+    padding: 4%;
+    line-height: 2;
+}
+strong{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.3rem;
+    background-color: white;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 1% 4%;
+    box-shadow: 3px 3px 5px gray;
+}
